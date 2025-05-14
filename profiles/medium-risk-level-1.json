@@ -1,19 +1,19 @@
 {
   "profile": {
-    "uuid": "ae8c267e-93f5-41fe-9937-b90a9be53e12",
+    "uuid": "5a4e4538-be2a-4821-aceb-0665675e0fcf",
     "metadata": {
-      "title": "Low-Risk - Level 1",
+      "title": "Medium-Risk - Level 1",
       "last-modified": "2025-05-13T18:00:00+08:00",
       "version": "2025.05.13",
       "oscal-version": "1.1.2",
       "props": [
         {
           "name": "label",
-          "value": "low-risk-level-1"
+          "value": "medium-risk-level-1"
         },
         {
           "name": "risk",
-          "value": "low-risk"
+          "value": "medium-risk"
         },
         {
           "name": "level",
@@ -32,14 +32,21 @@
       ],
       "parties": [
         {
-          "uuid": "e738ab7c-ed26-4fe6-a1e7-f485265d50cc",
+          "uuid": "d42526af-0b2b-4b27-82b3-2a2f24db5f07",
           "type": "organization",
-          "name": "IM8-reform Executive Committee",
+          "name": "IM8-reform Medium Risk Working Group",
           "email-addresses": [
             "kevin_kb_ng@tech.gov.sg",
             "hunter_nield@tech.gov.sg",
-            "eugene_lim@tech.gov.sg",
-            "loke_yew_leong@moe.gov.sg"
+            "goh_sheen_an@tech.gov.sg",
+            "alex_ng@tech.gov.sg",
+            "nitya@open.gov.sg",
+            "andy_hh_chua@tech.gov.sg",
+            "nicholas_tan_from.persolkelly@tech.gov.sg",
+            "ivan_leong@htx.gov.sg",
+            "samuel_huang@tech.gov.sg",
+            "eileen_goh@tech.gov.sg",
+            "eugene_lim@tech.gov.sg"
           ]
         }
       ],
@@ -47,13 +54,13 @@
         {
           "role-id": "creator",
           "party-uuids": [
-            "e738ab7c-ed26-4fe6-a1e7-f485265d50cc"
+            "d42526af-0b2b-4b27-82b3-2a2f24db5f07"
           ]
         },
         {
           "role-id": "contact",
           "party-uuids": [
-            "e738ab7c-ed26-4fe6-a1e7-f485265d50cc"
+            "d42526af-0b2b-4b27-82b3-2a2f24db5f07"
           ]
         }
       ],
@@ -61,7 +68,7 @@
     },
     "imports": [
       {
-        "href": "trestle://profiles/low-risk-level-0.json",
+        "href": "trestle://profiles/medium-risk-level-0.json",
         "include-all": {}
       },
       {
@@ -70,40 +77,34 @@
           {
             "with-ids": [
               "ac-1",
-              "ac-2",
-              "ac-3",
               "ac-4",
-              "ac-5",
-              "ac-6",
               "ac-7",
               "ac-8",
               "ac-9",
               "ac-12",
               "ac-14",
-              "as-1",
               "as-2",
-              "as-3",
               "as-4",
               "as-5",
               "as-6",
-              "as-7",
-              "as-8",
               "as-9",
               "as-11",
-              "br-1",
+              "br-2",
               "br-3",
               "cs-3",
               "cs-4",
               "cs-7",
+              "cs-8",
               "cs-9",
               "cs-10",
               "dc-1",
               "dc-2",
-              "dp-1",
               "dp-2",
               "dp-3",
               "dp-4",
               "dp-5",
+              "ck-1",
+              "ck-2",
               "is-1",
               "is-2",
               "is-3",
@@ -113,20 +114,18 @@
               "is-7",
               "is-9",
               "is-10",
+              "is-12",
+              "is-13",
               "lm-1",
               "lm-2",
-              "lm-3",
-              "lm-4",
-              "lm-6",
-              "lm-8",
+              "lm-5",
               "lm-7",
-              "lm-9",
+              "lm-8",
               "lm-10",
-              "ns-1",
+              "lm-19",
               "ns-2",
               "ns-3",
               "ns-4",
-              "ns-5",
               "ns-6",
               "ns-7",
               "ns-8",
@@ -136,7 +135,6 @@
               "pm-2",
               "pm-6",
               "tp-1",
-              "tp-5",
               "sc-1",
               "sc-3",
               "sc-4",
@@ -144,17 +142,13 @@
               "sc-6",
               "sd-1",
               "sd-2",
+              "sd-3",
               "sd-4",
               "sd-5",
               "sd-6",
               "sd-7",
-              "sd-8",
-              "st-1",
               "st-2",
-              "st-3",
-              "st-4",
-              "st-5",
-              "tp-3"
+              "st-5"
             ]
           }
         ]
