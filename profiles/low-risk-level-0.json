@@ -3,8 +3,8 @@
     "uuid": "41cb1662-d32f-4f2f-9544-70bc8ba5804e",
     "metadata": {
       "title": "Low-Risk - Level 0",
-      "last-modified": "2025-05-13T18:00:00+08:00",
-      "version": "2025.05.13",
+      "last-modified": "2025-09-16T18:00:00+08:00",
+      "version": "2025.09.16",
       "oscal-version": "1.1.2",
       "props": [
         {
@@ -64,14 +64,7 @@
         "href": "trestle://catalogs/im8-reform.json",
         "include-controls": [
           {
-            "with-ids": [
-              "pm-3",
-              "pm-4",
-              "pm-5",
-              "is-11",
-              "is-14",
-              "lm-12"
-            ]
+            "with-ids": ["dp-1", "pm-3", "pm-4", "pm-5", "is-11", "is-14", "lm-12"]
           }
         ]
       }
